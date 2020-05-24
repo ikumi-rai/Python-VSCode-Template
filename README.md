@@ -1,2 +1,2 @@
 # Python-VSCode-Template
-Template repository when using Python and VSCode
+It's a Template repository when using Python and VSCode.
