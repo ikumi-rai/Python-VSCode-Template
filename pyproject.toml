@@ -1,0 +1,21 @@
+[tool.flake8]
+max-line-length = 120
+ignore = E225,E226,E262,E701
+
+[tool.poetry]
+name = "python-vscode-template"
+version = "0.1.0"
+description = "It's a Template repository when using Python and VSCode."
+authors = ["ikumi-rai"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+flake8 = "*"
+yapf = {git = "https://github.com/google/yapf"}
+jupyterlab = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
