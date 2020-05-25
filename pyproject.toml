@@ -1,7 +1,3 @@
-[tool.flake8]
-max-line-length = 120
-ignore = E225,E226,E262,E701
-
 [tool.poetry]
 name = "python-vscode-template"
 version = "0.1.0"
