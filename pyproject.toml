@@ -9,8 +9,11 @@ python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 flake8 = "*"
-yapf = {git = "https://github.com/google/yapf"}
+black = {git = "https://github.com/psf/black.git"}
 jupyterlab = "*"
+pytest = "*"
+pytest-mock = "*"
+pytest-timeout = "*"
 
 [build-system]
 requires = ["poetry>=0.12"]
