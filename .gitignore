@@ -1,6 +1,3 @@
-# Environments
-.venv/*
-
 # Editor
 .vscode/*
 !.vscode/extensions.json
