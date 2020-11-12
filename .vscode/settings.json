@@ -6,6 +6,6 @@
         "editor.formatOnType": true,
         "editor.formatOnSave": true
     },
-    "python.formatting.provider": "yapf",
+    "python.formatting.provider": "black",
     "python.venvPath": "./"
 }
