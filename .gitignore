@@ -5,3 +5,9 @@
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
+
+# cache
+**/*.pyc
+
+
+!.gitkeep
