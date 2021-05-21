@@ -9,14 +9,14 @@ python = "^3.9"
 
 [tool.poetry.dev-dependencies]
 flake8 = "*"
-black = {git = "https://github.com/psf/black.git"}
+black = {git = "https://github.com/psf/black.git", rev = "main"}
 pytest = "*"
 pytest-mock = "*"
 pytest-timeout = "*"
 
 [build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 100
