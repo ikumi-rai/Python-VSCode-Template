@@ -5,12 +5,11 @@ description = "It's a Template repository when using Python and VSCode."
 authors = ["ikumi-rai"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 
 [tool.poetry.dev-dependencies]
 flake8 = "*"
 black = {git = "https://github.com/psf/black.git"}
-jupyterlab = "*"
 pytest = "*"
 pytest-mock = "*"
 pytest-timeout = "*"

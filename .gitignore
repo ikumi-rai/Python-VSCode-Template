@@ -1,3 +1,6 @@
+# Environment
+.venv/*
+
 # Editor
 .vscode/*
 !.vscode/extensions.json
