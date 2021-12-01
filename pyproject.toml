@@ -5,7 +5,7 @@ description = "It's a Template repository when using Python and VSCode."
 authors = ["ikumi-rai"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 
 [tool.poetry.dev-dependencies]
 flake8 = "*"
